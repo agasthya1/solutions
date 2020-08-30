@@ -1,6 +1,9 @@
 
+
 *{
 	box-sizing: border-box;
+	margin: 0px;
+	padding: 0px;
 }
 
 body{
@@ -34,29 +37,37 @@ section{
 .b1,.b2,.b3{
 	margin-right: auto;
     margin-left: auto;
-    width: 95%;
-    height: 95%;
-    padding: 5px;
+    width: 100%;
+    height: 100%;
+    /*padding: 10px;*/
     color: white;
 	background-color: black;
-	border: 2px solid green;
+	border: 3px solid green;
+	position: relative;
 }  
 h3{
 	color: grey;
-	border: 3px solid yellow;
+	/*border: 0px 0px 3px 3px solid yellow;*/
+	border-style: solid;
+	border-right-width:  0px;
+	border-left-width: 3px;
+	border-top-width: 0px;
+	border-bottom-width: 3px;
+	border-color: green;
 	background-color: white;
+	margin: 0px;
 	float: right;
-	/*position: relative;
-	width: 25%;
-	left: 75%;
-	top: 2px;*/
+	/*position: absolute;
+	/*width: 25%;*/
+	left: 85%;*/
+	
 }
 p{
 	width: 100%;
 	height: 100%;
 	clear: right;
-	padding: 5px;
-	border: 2px solid green;
+	padding: 10px;
+	/*border: 2px solid green;*/
 	overflow: auto;
 	
 }
@@ -64,6 +75,8 @@ p{
  section {
 		width: 33.33%;
 		float: left;
+
+		
 	}
  
 }
@@ -73,8 +86,8 @@ p{
 		width: 50%;
 		float: left;
 	}
-	.s3{
-		width: 100%
+.s3{
+		width: 100%;
 	}
 }
 @media (max-width:  767px){
