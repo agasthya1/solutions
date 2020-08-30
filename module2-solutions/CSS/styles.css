@@ -1,5 +1,6 @@
 
 
+
 *{
 	box-sizing: border-box;
 	margin: 0px;
@@ -47,6 +48,8 @@ section{
 }  
 h3{
 	color: grey;
+	text-align: center;
+	width: 130px;
 	/*border: 0px 0px 3px 3px solid yellow;*/
 	border-style: solid;
 	border-right-width:  0px;
@@ -57,9 +60,10 @@ h3{
 	background-color: white;
 	margin: 0px;
 	float: right;
+
 	/*position: absolute;
 	/*width: 25%;*/
-	left: 85%;*/
+	/*left: 85%;*/
 	
 }
 p{
