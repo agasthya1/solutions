@@ -65,6 +65,7 @@ p{
     width: 100%;
     max-width: none;
   }
+	
 @media (max-width: 500px) {
   .container {
     width: 100%;
